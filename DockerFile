@@ -1,4 +1,0 @@
-FROM openjdk:1.8
-VOLUME /tmp
-ADD target/spring-boot-2-hello-world-1.0.2-SNAPSHOT.jar /spring-boot-2-hello-world.jar
-ENTRYPOINT ["java", "-jar", "/spring-boot-2-hello-world.jar"]
